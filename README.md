@@ -6,3 +6,5 @@ This project demonstrates a character-level language model trained on Nietzsche'
 * Poetic or philosophical text synthesis
 * Educational demos for sequence modeling and RNNs
 ### Techniques Used
+| Area | Technique |
+| ---------------- |
