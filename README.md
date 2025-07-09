@@ -17,8 +17,8 @@ This project demonstrates a character-level language model trained on Nietzsche'
 | Framework | TensorFlow/Keras in a Jupyter Notebook environment |
 ### Challenges Faced
 1. Training Time
-   Training on ~200k character sequences using LSTM is computationally intensive. The notebook took several minutes per epoch, especially without GPU acceleration.
-2. Overfitting Risk
+Training on ~200k character sequences using LSTM is computationally intensive. The notebook took several minutes per epoch, especially without GPU acceleration.
+3. Overfitting Risk
    As the dataset is limited in diversity (one author/style), the model tends to overfit and repeat similar patterns, especially at lower temperatures.
-3. Balancing Temperature
+4. Balancing Temperature
    Finding the right temperature (0.2, 0.5, 1.0) was crucial. Lower temperatures generated more fluent but repetitive text; higher temperatures led to diverse but sometimes nonsensical      outputs.
